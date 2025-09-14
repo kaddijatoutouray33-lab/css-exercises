@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* Add CSS Styling *//* Grouped styles for both buttons */
+.black-btn,
+.yellow-btn {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Unique style for the first button */
+.black-btn {
+  background-color: black;
+  color: white;
+}
+
+/* Unique style for the second button */
+.yellow-btn {
+  background-color: yellow;
+}
