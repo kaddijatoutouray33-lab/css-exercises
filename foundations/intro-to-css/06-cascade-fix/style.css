@@ -1,0 +1,11 @@
+/* Lower specificity rule */
+.text {
+  color: blue;
+  font-size: 16px;
+}
+
+/* Higher specificity rule that should override */
+#special.text {
+  color: red;
+  font-size: 20px;
+}
